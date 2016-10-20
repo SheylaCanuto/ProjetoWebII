@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/freelancer.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    </head>
+    
+       <style>
+        body{
+            background-image: url("fone2.jpg");
+        }
+        h2{
+            color: white;
+        }
+        imput:-moz-placeholder { 
+          color: red;  
+        }
+    </style>
+
+
+    <body id="page-top" class="index" data-spy="scroll">
+        
+         <!-- Navigation -->
+               <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="inicio.html">Track Find</a>
+                </div>
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="dropdown" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="login.html">
+                                <span class="glyphicon glyphicon-user"></span>Login</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right page-scroll">
+                        <li><a href="cadastro.html"><span class="glyphicon glyphicon-user"></span>Cadastrar</a></li>
+                    </ul>
+                </div>
+                
+              </div>
+            <!-- /.container-fluid -->
+        </nav>
+        
+          <section id="login">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <br>
+                        <form name="sentMessage" id="contactForm" novalidate>
+                            <div class="row control-group">
+                                <h2>Login</h2>
+                                <br>
+                            </div>
+                    </div>
+                </div>
+                <div class="row control-group">
+                    <div class="form-group col-lg-6 col-lg-offset-3 floating-label-form-group controls">
+                        <label>Nome</label>
+                        <input type="text" class="form-control" placeholder="Nickname ou Email" id="nome" maxlength="70">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="row control-group ">
+                    <div class="form-group col-lg-2 col-lg-offset-3 floating-label-form-group controls">
+                        <label>Senha</label>
+                        <input type="password" class="form-control" placeholder="Senha" id="senha" maxlength="14">
+                    </div>
+                </div>
+                <br>
+                <div id="success"></div>
+                <div class="row">
+                    <div class="form-group col-lg-offset-3">
+                        <a href="logado.html" class="btn btn-default" role="button"> Entrar</a>
+                        
+                    </div>
+                </div>
+            </div>
+         </form>
+        </section>
+    </body>
+</html>

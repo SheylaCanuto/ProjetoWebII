@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Leandro Bernardes">
+
+        <title>Configuração</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/freelancer.css" rel="stylesheet">
+
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    </head>
+
+<!--        <style>
+        body{
+            background-image: url("fone2.jpg");
+        }
+    </style>-->
+    
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="inicio.html">Track Find</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Opções <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="PlayList.html">Playlist</a></li>
+                            <li><a href="logado.html">Perfil</a></li>
+                            <li><a href="Amigos.html"><!--<img src="perfil.png"/>-->Amigos</a></li>
+                            <li><a href="#">Favoritos</a></li>
+                            <li><a href="#">Historico</a></li>
+                            <li><a href="#">Tendencia</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                            <button type="reset" class="btn btn-default">
+                                <span class="glyphicon glyphicon-remove">
+                                    <span class="sr-only">Close</span>
+                                </span>
+                            </button>
+                            <button type="submit" class="btn btn-default">
+                                <span class="glyphicon glyphicon-search">
+                                    <span class="sr-only">Search</span>
+                                </span>
+                            </button>
+                            <a href="Configura.html" class="btn btn-default" role="button"> Configuração</a>
+                            <a href="inicio.html" class="btn btn-default" role="button"> Sair</a>
+
+                        </span>
+                    </div>
+                </form>
+            </div><!-- /.navbar-collapse -->
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <br><br><br><br><br><br>
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <h2>Alterar Dados</h2>
+                            <br>
+                        </div>
+                </div>
+            </div>
+            <div class="row control-group">
+                <div class="form-group group col-lg-6 col-lg-offset-3 floating-label-form-group controls">
+                    <label>Nome</label>
+                    <input type="text" class="form-control" placeholder="Novo nick name" id="nome" maxlength="70">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="row control-group ">
+                <div class="form-group group col-lg-2 col-lg-offset-3 floating-label-form-group controls">
+                    <label>Senha</label>
+                    <input type="password" class="form-control" placeholder="Nova senha" id="senha" maxlength="14">
+                </div>
+            </div>
+            <div class="row control-group">
+                <div class="form-group group col-lg-6 col-lg-offset-3 floating-label-form-group controls">
+                    <label>Senha</label>
+                    <input type="email" class="form-control" placeholder="Confirmar senha" id="email" maxlength="255">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="row control-group">
+                <div class="form-group group col-lg-6 col-lg-offset-3 floating-label-form-group controls">
+                    <label>Foto</label>
+                   <input name="imagem" type="file">
+                </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="row">
+                <div class="form-group col-lg-offset-3">
+                    <button type="submit" class="btn btn-success btn-lg">Salvar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll visible-xs visible-sm">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+
+
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/freelancer.js"></script>
+
+    </body>
+
+</html>
