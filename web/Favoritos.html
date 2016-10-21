@@ -8,25 +8,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Leandro Bernardes">
-
-        <title>Configuração</title>
-
+        <title>Favoritos</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
-
         <link href="css/freelancer.css" rel="stylesheet">
-
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     </head>
-
-        <style>
-        body{
-            background-color: #303030;
+    
+    <style>
+        section{
+            background-color: #3c3c3c;
+        }
+        h2{
+            color: white;
+        }
+        ol{
+            color: white;
         }
     </style>
-    
+
+
     <body id="page-top" class="index">
 
         <!-- Navigation -->
@@ -62,9 +65,11 @@
                                     <span class="sr-only">Search</span>
                                 </span>
                             </button>
-                            <a href="Configura.html" class="btn btn-default" role="button"> Configuração</a>
-                            <a href="inicio.html" class="btn btn-default" role="button"> Sair</a>
-
+                            <button type="button" class="btn btn-default">
+                                <span class="glyphicon glyphicon-cog">
+                                    <a href="Configuração.html"></a>
+                                </span>
+                            </button>
                         </span>
                     </div>
                 </form>
@@ -72,51 +77,34 @@
             <!-- /.container-fluid -->
         </nav>
 
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <br><br><br><br><br><br>
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <h2>Alterar Dados</h2>
-                            <br>
-                        </div>
-                </div>
+        <!-- About Section -->
+        <section class="active" id="about">
+            <div class="container text-center">
+                <br><br>
+                <h2>Seus Favoritos</h2>
+                <br><br><br>
+                <ol>
+                    <li>Twenty One Pilots – Heathens</li>
+                    <li>RedHot Chili Peppers - Go Robot</li>
+                    <li>Imagine Dragons - Radioactive</li>
+                    <li>The Pretty Reckless - Just Tonight</li>
+                    <li>Alice In Chains - Man in the box</li>
+                    <li>Metallica - The Unforgiven</li>                                  
+                    <li>The Chainsmokers – Closer (Feat. Halsey) (Lançamento 2016)</li>
+                    <li>The Weeknd – Starboy (Feat. Daft Punk) (Músicas Internacionais Estreantes) </li>
+                    <li>Major Lazer – Cold Water (Feat. Justin Bieber & MØ)</li>
+                    <li>Fifth Harmony – That’s My Girl (Músicas Internacionais Estreantes)</li>
+                    <li>Calvin Harris – My Way</li>
+                    <li>Sia – The Greatest</li>
+                    <li>The Chainsmokers – Don’t Let Me Down (Fet. Daya)</li>
+                    <li>Fifth Harmony – Work From Home (Feat. Ty Dolla $ign)</li>
+                </ol>
+                   <button type="button" class="btn btn-primary active">Remover música de favoritos</button>
+                
             </div>
-            <div class="row control-group">
-                <div class="form-group group col-lg-6 col-lg-offset-3 floating-label-form-group controls">
-                    <label>Nome</label>
-                    <input type="text" class="form-control" placeholder="Novo nick name" id="nome" maxlength="70">
-                    <p class="help-block text-danger"></p>
-                </div>
-            </div>
-            <div class="row control-group ">
-                <div class="form-group group col-lg-2 col-lg-offset-3 floating-label-form-group controls">
-                    <label>Senha</label>
-                    <input type="password" class="form-control" placeholder="Nova senha" id="senha" maxlength="14">
-                </div>
-            </div>
-            <div class="row control-group">
-                <div class="form-group group col-lg-6 col-lg-offset-3 floating-label-form-group controls">
-                    <label>Senha</label>
-                    <input type="email" class="form-control" placeholder="Confirmar senha" id="email" maxlength="255">
-                    <p class="help-block text-danger"></p>
-                </div>
-            </div>
-            <div class="row control-group">
-                <div class="form-group group col-lg-6 col-lg-offset-3 floating-label-form-group controls">
-                    <label>Foto</label>
-                   <input name="imagem" type="file">
-                </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="row">
-                <div class="form-group col-lg-offset-3">
-                    <button type="submit" class="btn btn-success btn-lg">Salvar</button>
-                </div>
-            </div>
-        </div>
+        </section>
+                            
+
 
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
         <div class="scroll-top page-scroll visible-xs visible-sm">
